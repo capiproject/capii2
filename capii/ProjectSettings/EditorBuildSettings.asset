@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Atividades.unity
     guid: 87320c262d502634f8c28ee381d1cf54
   - enabled: 1
-    path: Assets/Scenes/Numeros2.unity
+    path: Assets/Scenes/Numeros3.unity
     guid: eaffbc9578c2b1347b5ead02b78f990a
   - enabled: 1
     path: Assets/Scenes/Numeros1.unity
@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Numeros.unity
     guid: a8103dba9a1a11f40bb724af4ad3e36c
   - enabled: 1
-    path: Assets/Scenes/NumerosPopUp.unity
+    path: Assets/Scenes/Numeros2.unity
     guid: 16dee0cbcd1fa76489262dc7fa6d3a67
+  - enabled: 1
+    path: Assets/Scenes/Numeros4.unity
+    guid: e130f611f2dd7aa47bb9f8811ff0cf13
   m_configObjects: {}

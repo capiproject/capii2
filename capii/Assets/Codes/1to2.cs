@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class SceneLoader1 : MonoBehaviour
+
+public class ChangeScenes3 : MonoBehaviour
 {
-    public void LoadScene1()
+    public void GoToDrawing()
     {
-        SceneManager.LoadScene("Atividades");
+        SceneManager.LoadScene("Numeros3");
     }
 }
