@@ -55,7 +55,6 @@ public class BleInterador : MonoBehaviour
 
     public void ScanForDevices()
     {
-       // StartCoroutine
         conexao.OnScan();
     }
 
@@ -97,7 +96,7 @@ public class BleInterador : MonoBehaviour
             conexao.Enviar("E");
         }
     }
-
+   
     public void Receber(string dados)
     {
         string receber = Console.ReadLine();
@@ -117,8 +116,7 @@ public class BleInterador : MonoBehaviour
 
             Debug.Log("FIM");
         }
-        if (receber == "FIM")
-        { //Volta para a tela de atividades
+        if (receber == "FIM") { //Volta para a tela de atividades
             conexao.Enviar("ACABOU");
 
         }
