@@ -55,6 +55,7 @@ public class BleInterador : MonoBehaviour
 
     public void ScanForDevices()
     {
+       // StartCoroutine
         conexao.OnScan();
     }
 
@@ -73,30 +74,30 @@ public class BleInterador : MonoBehaviour
         _connectCommand.End();
     }
 
-    public void EnviarOn()
+    public void EnviarJogoNumeros()
     {
-        conexao.Enviar("on\n");
-    }
-    public void EnviarOff()
-    {
-        conexao.Enviar("off\n");
-    }
-
-    public void EnviarJogos()
-    {
-        if (Input.GetButtonDown("NomeDoBotao")) //iniciar jogo
+        if (Input.GetButtonDown("1234")) //iniciar jogo
         {
             conexao.Enviar("NUMERO");
         }
-        if (Input.GetButtonDown("NomeDoBotao")) //Resposta certa
+    }
+
+    public void EnviarRespostaCerta()
+    {
+        if (Input.GetButtonDown("3")) //Resposta certa
         {
             conexao.Enviar("C");
         }
-        if (Input.GetButtonDown("NomeDoBotao")) //Resposta errada
+    }
+
+    public void EnviarRespostaErrada()
+    {
+        if (Input.GetButtonDown("1") && Input.GetButtonDown("5")) //Resposta errada
         {
             conexao.Enviar("E");
         }
     }
+
     public void Receber(string dados)
     {
         string receber = Console.ReadLine();
@@ -116,7 +117,8 @@ public class BleInterador : MonoBehaviour
 
             Debug.Log("FIM");
         }
-        if (receber == "FIM") { //Volta para a tela de atividades
+        if (receber == "FIM")
+        { //Volta para a tela de atividades
             conexao.Enviar("ACABOU");
 
         }
