@@ -30,6 +30,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Numeros4.unity
     guid: e130f611f2dd7aa47bb9f8811ff0cf13
   - enabled: 1
+    path: Assets/Scenes/Numeros5.unity
+    guid: 41c6a18cc9d8481409e21e9f5422256a
+  - enabled: 1
+    path: Assets/Scenes/Numeros6.unity
+    guid: e8c892ff071443e44996fa25ccd9d2e5
+  - enabled: 1
+    path: Assets/Scenes/Numeros7.unity
+    guid: ffb997691a18bb74388052ce55e8515c
+  - enabled: 1
+    path: Assets/Scenes/Numeros8.unity
+    guid: ea60028e66102ec45b433dbd95dae52e
+  - enabled: 1
     path: Assets/Scenes/Musicas.unity
     guid: 88aa06c2263687245b8af8410cf03928
   - enabled: 1
@@ -38,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Estatua.unity
     guid: 8dee9848b704d8a479d1f1c29c95a3fe
+  - enabled: 1
+    path: Assets/Scenes/Estatua2.unity
+    guid: dfea31ad135db8d41b7bfd9b70217365
   m_configObjects: {}
