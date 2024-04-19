@@ -53,4 +53,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Estatua2.unity
     guid: dfea31ad135db8d41b7bfd9b70217365
+  - enabled: 1
+    path: "Assets/Scenes/ParabensCrian\xE7a.unity"
+    guid: 0fd2700a055ed8945b0a8e555f328c85
+  - enabled: 1
+    path: Assets/Scenes/Formas.unity
+    guid: 1007daeeeff91924a96481c59e45c0b4
+  - enabled: 1
+    path: Assets/Scenes/Formas1.unity
+    guid: 6fb96ac5aa015494ca32df3ad8be13c7
+  - enabled: 1
+    path: Assets/Scenes/FinalFormas.unity
+    guid: 95e1dd381673f5b4b99b7fa8f8ba7e2d
   m_configObjects: {}
