@@ -74,4 +74,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Alfabeto 1.unity
     guid: a965a32a400f246489ddea1de3d99e11
+  - enabled: 1
+    path: Assets/Scenes/Historias.unity
+    guid: 3e2026611153e3546b59760faf80ee01
+  - enabled: 1
+    path: Assets/Scenes/Historias 1.unity
+    guid: 31544f2cd98431a4081ff15fef2ee4ef
+  - enabled: 1
+    path: Assets/Scenes/Historias 2.unity
+    guid: 3f1243b945ccb8548ad03345dfd75055
   m_configObjects: {}
